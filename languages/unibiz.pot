@@ -1,0 +1,520 @@
+# Copyright (C) 2026 Jegstudio
+# This file is distributed under the GNU General Public License v3 or later..
+msgid ""
+msgstr ""
+"Project-Id-Version: LifeAwesome 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lifeawesome-1HRpG50mQ3i4\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-27T01:55:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: lifeawesome\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/class/class-init.php:1198
+msgid "LifeAwesome"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://gutenverse.com/lifeawesome/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+#: inc/class/class-init.php:1199
+msgid "LifeAwesome is a Multipurpose Business WordPress Block Theme built for professionals and businesses that want to create a modern, high-performing website without writing a single line of code. Built with full site editing and powered by Gutenverse, this theme delivers a flexible and fully customizable platform with 50+ ready-to-import demo sites and 80+ block elements to help you launch your site in minutes. As the first Multipurpose Business theme fully compatible with FSE, LifeAwesome is ideal for digital agencies, finance consultants, startup companies, life coaches, human resource agencies, and adventure travel businesses looking to establish a strong online presence. With responsive layouts, a live drag-and-drop editor, global style manager, and well-structured block patterns, you can easily customize pages, services, portfolios, and testimonials to match your brand. Optimized for speed and performance, LifeAwesome allows you to build a professional website that reflects your identity and grows with your Multipurpose Business needs."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Jegstudio"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://gutenverse.com"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:57
+msgid "LifeAwesome Core Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:61
+msgid "LifeAwesome Gutenverse Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:62
+msgid "LifeAwesome Gutenverse PRO Patterns"
+msgstr ""
+
+#: inc/class/class-init.php:1200
+msgid "Plugin Requirement"
+msgstr ""
+
+#: inc/class/class-init.php:1201
+msgid "This theme require some plugins. Please make sure all the plugin below are installed and activated."
+msgstr ""
+
+#: inc/class/class-init.php:1207
+msgid "Install Gutenverse Plugin"
+msgstr ""
+
+#: inc/class/class-init.php:1208
+msgid "Activate Gutenverse Plugin"
+msgstr ""
+
+#: inc/class/class-init.php:1209
+msgid "Gutenverse Plugin Installed"
+msgstr ""
+
+#: inc/class/class-init.php:1223
+#: inc/class/class-plugin-notice.php:90
+msgid "Gutenverse"
+msgstr ""
+
+#: inc/class/class-init.php:1224
+#: inc/class/class-plugin-notice.php:91
+msgid "GUTENVERSE – GUTENBERG BLOCKS AND WEBSITE BUILDER FOR SITE EDITOR, TEMPLATE LIBRARY, POPUP BUILDER, ADVANCED ANIMATION EFFECTS, COMPLETE FEATURE ECOSYSTEM, 45+ FREE USER-FRIENDLY BLOCKS"
+msgstr ""
+
+#: inc/class/class-init.php:1237
+#: inc/class/class-plugin-notice.php:104
+msgid "Gutenverse Companion"
+msgstr ""
+
+#: inc/class/class-init.php:1238
+#: inc/class/class-plugin-notice.php:105
+msgid "A companion plugin designed specifically to enhance and extend the functionality of Gutenverse base themes. This plugin integrates seamlessly with the base themes, providing additional features, customization options, and advanced tools to optimize the overall user experience and streamline the development process."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:313
+msgid "Installing..."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:342
+msgid "Install Failed, Try Again"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:351
+msgid "Thank you For Installing LifeAwesome Theme"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:353
+msgid "Unlock the full potential of your website with the recommended plugins."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:355
+msgid "Activate it to explore exclusive extensions, ready-to-use demo templates, and powerful features that make building your site easier and more enjoyable."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:358
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: inc/patterns/lifeawesome-archive-core-hero.php:6
+msgid "LifeAwesome Archive Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-archive-gutenverse-hero.php:6
+msgid "LifeAwesome Archive Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-404.php:6
+msgid "LifeAwesome Core 404"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-footer-alternate.php:6
+msgid "LifeAwesome Core Footer Alternate"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-about.php:6
+msgid "LifeAwesome Core Home About"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-authority.php:6
+msgid "LifeAwesome Core Home Authority"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-blog.php:6
+msgid "LifeAwesome Core Home Blog"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-clients.php:6
+msgid "LifeAwesome Core Home Clients"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-hero.php:6
+msgid "LifeAwesome Core Home Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-services.php:6
+msgid "LifeAwesome Core Home Services"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-home-testimonials.php:6
+msgid "LifeAwesome Core Home Testimonials"
+msgstr ""
+
+#: inc/patterns/lifeawesome-core-post-block.php:6
+msgid "LifeAwesome Core Post Block"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-404.php:6
+msgid "LifeAwesome Gutenverse 404"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-footer-alternate.php:6
+msgid "LifeAwesome Gutenverse Footer Alternate"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-footer.php:6
+msgid "LifeAwesome Gutenverse Footer"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-header-alternate.php:6
+msgid "LifeAwesome Gutenverse Header Alternate"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-header.php:6
+msgid "LifeAwesome Gutenverse Header"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-about.php:6
+msgid "LifeAwesome Gutenverse Home About"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-authority.php:6
+msgid "LifeAwesome Gutenverse Home Authority"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-blog.php:6
+msgid "LifeAwesome Gutenverse Home Blog"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-clients.php:6
+msgid "LifeAwesome Gutenverse Home Clients"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-hero.php:6
+msgid "LifeAwesome Gutenverse Home Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-services.php:6
+msgid "LifeAwesome Gutenverse Home Services"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-home-testimonials.php:6
+msgid "LifeAwesome Gutenverse Home Testimonials"
+msgstr ""
+
+#: inc/patterns/lifeawesome-gutenverse-post-block.php:6
+msgid "LifeAwesome Gutenverse Post Block"
+msgstr ""
+
+#: inc/patterns/lifeawesome-index-core-hero.php:6
+msgid "LifeAwesome Index Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-index-gutenverse-hero.php:6
+msgid "LifeAwesome Index Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-core-content.php:6
+msgid "LifeAwesome Page Core Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-core-hero.php:6
+msgid "LifeAwesome Page Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-gutenverse-content.php:6
+msgid "LifeAwesome Page Gutenverse Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-gutenverse-hero.php:6
+msgid "LifeAwesome Page Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-no-sidebar-core-content.php:6
+msgid "LifeAwesome Page No Sidebar Core Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-no-sidebar-core-hero.php:6
+msgid "LifeAwesome Page No Sidebar Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-no-sidebar-gutenverse-content.php:6
+msgid "LifeAwesome Page No Sidebar Gutenverse Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-page-no-sidebar-gutenverse-hero.php:6
+msgid "LifeAwesome Page No Sidebar Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-search-core-hero.php:6
+msgid "LifeAwesome Search Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-search-core-search.php:6
+msgid "LifeAwesome Search Core Search"
+msgstr ""
+
+#: inc/patterns/lifeawesome-search-gutenverse-hero.php:6
+msgid "LifeAwesome Search Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-search-gutenverse-search.php:6
+msgid "LifeAwesome Search Gutenverse Search"
+msgstr ""
+
+#: inc/patterns/lifeawesome-single-core-content.php:6
+msgid "LifeAwesome Single Core Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-single-core-hero.php:6
+msgid "LifeAwesome Single Core Hero"
+msgstr ""
+
+#: inc/patterns/lifeawesome-single-gutenverse-content.php:6
+msgid "LifeAwesome Single Gutenverse Content"
+msgstr ""
+
+#: inc/patterns/lifeawesome-single-gutenverse-hero.php:6
+msgid "LifeAwesome Single Gutenverse Hero"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank Canvas"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page With Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Placeholder"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border Input"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Placeholder"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Accent Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Border Input"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Host Grotesk"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Massive"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Mega"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Jumbo"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Largest"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Big"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Standard"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Little"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Mini"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""

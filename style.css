@@ -1,0 +1,17 @@
+/*
+Theme Name: LifeAwesome
+Description: LifeAwesome is a Multipurpose Business WordPress Block Theme built for professionals and businesses that want to create a modern, high-performing website without writing a single line of code. Built with full site editing and powered by Gutenverse, this theme delivers a flexible and fully customizable platform with 50+ ready-to-import demo sites and 80+ block elements to help you launch your site in minutes. As the first Multipurpose Business theme fully compatible with FSE, LifeAwesome is ideal for digital agencies, finance consultants, startup companies, life coaches, human resource agencies, and adventure travel businesses looking to establish a strong online presence. With responsive layouts, a live drag-and-drop editor, global style manager, and well-structured block patterns, you can easily customize pages, services, portfolios, and testimonials to match your brand. Optimized for speed and performance, LifeAwesome allows you to build a professional website that reflects your identity and grows with your Multipurpose Business needs.
+Author: UtahCreative
+Author URI: https://utahcreative.com
+Theme URI: https://utahcreative.com/lifeawesome/
+Version: 1.0.0
+Stable tag: 1.0.0
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 8.0
+*/
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container
+	> .block-library-block__reusable-block-container {
+	max-width: 100%;
+}

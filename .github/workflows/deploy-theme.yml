@@ -1,0 +1,31 @@
+name: Deploy WordPress Theme to Bluehost
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Start ssh-agent and add deploy key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.BLUEHOST_SSH_PRIVATE_KEY }}
+
+      - name: Add Bluehost host to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p 2222 wordpress.lifeawesome.com >> ~/.ssh/known_hosts
+
+      - name: Deploy theme with rsync
+        run: |
+          rsync -avz --delete \
+            -e "ssh -p 2222" \
+            ./ \
+            iywuxemy@wordpress.lifeawesome.com:/home/iywuxemy/public_html/wp-content/themes/lifeawesome/

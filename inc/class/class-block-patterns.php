@@ -59,7 +59,6 @@ class Block_Patterns {
 
 		if ( defined( 'GUTENVERSE' ) ) {
 			$block_pattern_categories['lifeawesome-gutenverse'] = array( 'label' => esc_html__( 'LifeAwesome Gutenverse Patterns', 'lifeawesome' ) );
-			$block_pattern_categories['lifeawesome-pro'] = array( 'label' => esc_html__( 'LifeAwesome Gutenverse PRO Patterns', 'lifeawesome' ) );
 		}
 
 		$block_pattern_categories = apply_filters( 'lifeawesome_block_pattern_categories', $block_pattern_categories );

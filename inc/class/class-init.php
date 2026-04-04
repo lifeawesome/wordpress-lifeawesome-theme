@@ -1202,7 +1202,7 @@ class Init {
 			'note'          => '',
 			'note2'         => '',
 			'demo'          => '',
-			'demoUrl'       => esc_url( 'https://gutenverse.com/demo?name=lifeawesome' ),
+			'demoUrl'       => '',
 			'install'       => '',
 			'installText'   => esc_html__( 'Install Gutenverse Plugin', 'lifeawesome' ),
 			'activateText'  => esc_html__( 'Activate Gutenverse Plugin', 'lifeawesome' ),
@@ -1210,10 +1210,10 @@ class Init {
 			'dashboardPage' => admin_url( 'themes.php?page=lifeawesome-dashboard' ),
 			'logo'          => trailingslashit( get_template_directory_uri() ) . 'assets/img/logo-icon-lifeawesome.svg',
 			'slug'          => 'lifeawesome',
-			'upgradePro'    => esc_url( 'https://gutenverse.com/pricing' ),
-			'supportLink'   => esc_url( 'https://support.jegtheme.com/forums/forum/fse-themes/' ),
+			'upgradePro'    => '',
+			'supportLink'   => '',
 			'libraryApi'    => esc_url( 'https://gutenverse.com//wp-json/gutenverse-server/v1' ),
-			'docsLink'      => esc_url( 'https://gutenverse.com/docs' ),
+			'docsLink'      => '',
 			'pages'         => array(
 				
 			),
@@ -1294,7 +1294,12 @@ class Init {
 			$config['assign'] = $assign;
 		}
 
-		return $config;
+		/**
+		 * Filters theme dashboard config localized as GutenThemeConfig (wp-admin).
+		 *
+		 * @param array $config Theme configuration array.
+		 */
+		return apply_filters( 'lifeawesome_theme_config', $config );
 	}
 	
 }

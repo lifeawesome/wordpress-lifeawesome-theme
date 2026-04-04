@@ -49,10 +49,6 @@ msgstr ""
 msgid "LifeAwesome Gutenverse Patterns"
 msgstr ""
 
-#: inc/class/class-block-patterns.php:62
-msgid "LifeAwesome Gutenverse PRO Patterns"
-msgstr ""
-
 #: inc/class/class-init.php:1200
 msgid "Plugin Requirement"
 msgstr ""

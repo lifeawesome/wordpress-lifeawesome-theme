@@ -5,10 +5,10 @@
 return array(
 	'title'      => __( 'LifeAwesome Core Post Block', 'lifeawesome' ),
 	'categories' => array( 'lifeawesome-core' ),
-	'content'    => '<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"48px","bottom":"80px","right":"20px","left":"20px"}}},"layout":{"type":"constrained","wideSize":"1140px","contentSize":"1140px"}} -->
-<main class="wp-block-group alignfull" style="padding-top:48px;padding-right:20px;padding-bottom:80px;padding-left:20px"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"60px","left":"60px"}}}} -->
+	'content'    => '<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"28px","bottom":"80px","right":"20px","left":"20px"}}},"layout":{"type":"constrained","wideSize":"1140px","contentSize":"1140px"}} -->
+<main class="wp-block-group alignfull" style="padding-top:28px;padding-right:20px;padding-bottom:80px;padding-left:20px"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"48px","left":"48px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"760px"} -->
-<div class="wp-block-column" style="flex-basis:760px"><!-- wp:query {"queryId":47,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
+<div class="wp-block-column" style="flex-basis:760px"><!-- wp:query {"queryId":47,"query":{"perPage":8,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
 <div class="wp-block-query"><!-- wp:group {"style":{"spacing":{"blockGap":"56px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:post-template {"className":"lifeawesome-post-template","style":{"spacing":{"blockGap":"40px"},"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black","layout":{"type":"default"}} -->
 <!-- wp:group {"style":{"spacing":{"padding":{"bottom":"40px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

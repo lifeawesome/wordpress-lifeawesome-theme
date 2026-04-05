@@ -1547,3 +1547,226 @@ body .wp-site-blocks > * + * {
 		width: calc(16.66667%) !important;
 	}
 }
+
+/* -------------------------------------------------------------------------
+   Sticky site header
+   - Outer: header.wp-block-template-part (FSE wrapper — works even if the inner
+     group lost the lifeawesome-site-header class after a customized template part)
+   - Inner: .lifeawesome-site-header (Core group or Gutenverse section-wrapper)
+   Disable: Appearance → Customize → Additional CSS:
+     :root { --lifeawesome-sticky-header: static; }
+   ------------------------------------------------------------------------- */
+html {
+	scroll-padding-top: 6rem;
+}
+
+header.wp-block-template-part,
+.lifeawesome-site-header {
+	position: var(--lifeawesome-sticky-header, sticky);
+	top: var(--lifeawesome-sticky-header-top, 0);
+	z-index: 100;
+	background-color: #fff;
+	box-shadow: 0 1px 0 rgba(15, 23, 42, 0.06);
+}
+
+/* One shadow line when both outer template part and inner group are sticky */
+header.wp-block-template-part .lifeawesome-site-header {
+	box-shadow: none;
+}
+
+body.admin-bar header.wp-block-template-part,
+body.admin-bar .lifeawesome-site-header {
+	--lifeawesome-sticky-header-top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+	body.admin-bar header.wp-block-template-part,
+	body.admin-bar .lifeawesome-site-header {
+		--lifeawesome-sticky-header-top: 46px;
+	}
+}
+
+/* -------------------------------------------------------------------------
+   Home blog hero — depth + motion (respect reduced motion)
+   ------------------------------------------------------------------------- */
+.lifeawesome-hero-blog {
+	position: relative;
+	overflow: hidden;
+}
+
+.lifeawesome-hero-blog::before,
+.lifeawesome-hero-blog::after {
+	content: "";
+	position: absolute;
+	inset: -40% -20%;
+	pointer-events: none;
+	z-index: 0;
+}
+
+.lifeawesome-hero-blog::before {
+	background:
+		radial-gradient(
+			ellipse 80% 60% at 15% 20%,
+			rgba(124, 58, 237, 0.14) 0%,
+			transparent 55%
+		),
+		radial-gradient(
+			ellipse 70% 50% at 85% 30%,
+			rgba(236, 72, 153, 0.1) 0%,
+			transparent 50%
+		);
+	opacity: 0.95;
+	animation: lifeawesome-hero-mesh 18s ease-in-out infinite alternate;
+}
+
+.lifeawesome-hero-blog::after {
+	background: radial-gradient(
+		circle at 50% 120%,
+		rgba(15, 23, 42, 0.04) 0%,
+		transparent 45%
+	);
+	opacity: 1;
+	animation: lifeawesome-hero-mesh 22s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes lifeawesome-hero-mesh {
+	0% {
+		transform: translate3d(0, 0, 0) scale(1);
+	}
+	100% {
+		transform: translate3d(2%, -1%, 0) scale(1.04);
+	}
+}
+
+.lifeawesome-hero-blog > * {
+	position: relative;
+	z-index: 1;
+}
+
+.lifeawesome-hero-blog__title {
+	letter-spacing: -0.02em;
+	line-height: 1.08;
+}
+
+.lifeawesome-hero-blog__lede {
+	max-width: 38rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lifeawesome-hero-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+/* -------------------------------------------------------------------------
+   “Alive” buttons — gradient primary + outline secondary
+   ------------------------------------------------------------------------- */
+.lifeawesome-btn-alive .wp-block-button__link,
+.lifeawesome-btn-alive-outline .wp-block-button__link {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.35em;
+	font-weight: 600;
+	border-radius: 999px;
+	padding: 0.65em 1.35em;
+	transition:
+		transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+		filter 0.22s ease;
+	will-change: transform;
+}
+
+.lifeawesome-btn-alive .wp-block-button__link {
+	color: #fff !important;
+	border: none;
+	background: linear-gradient(
+		120deg,
+		#7c3aed 0%,
+		#a855f7 35%,
+		#ec4899 100%
+	);
+	background-size: 200% 100%;
+	box-shadow:
+		0 4px 14px rgba(124, 58, 237, 0.35),
+		0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+.lifeawesome-btn-alive .wp-block-button__link:hover,
+.lifeawesome-btn-alive .wp-block-button__link:focus-visible {
+	transform: translateY(-2px) scale(1.02);
+	box-shadow:
+		0 12px 28px rgba(124, 58, 237, 0.4),
+		0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+	filter: brightness(1.05);
+	background-position: 100% 0;
+}
+
+.lifeawesome-btn-alive-outline .wp-block-button__link {
+	color: #4c1d95 !important;
+	background: rgba(255, 255, 255, 0.65) !important;
+	backdrop-filter: blur(8px);
+	border: 2px solid rgba(124, 58, 237, 0.45) !important;
+	box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+}
+
+.lifeawesome-btn-alive-outline .wp-block-button__link:hover,
+.lifeawesome-btn-alive-outline .wp-block-button__link:focus-visible {
+	transform: translateY(-2px) scale(1.02);
+	border-color: rgba(236, 72, 153, 0.65) !important;
+	box-shadow:
+		0 10px 24px rgba(124, 58, 237, 0.18),
+		0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+}
+
+.lifeawesome-btn-alive .wp-block-button__link:active,
+.lifeawesome-btn-alive-outline .wp-block-button__link:active {
+	transform: translateY(0) scale(0.99);
+}
+
+/* Gutenverse hero button (pattern elementId guten-BHrBt) */
+.guten-BHrBt .guten-button-link {
+	border-radius: 999px !important;
+	font-weight: 600 !important;
+	padding: 0.65em 1.35em !important;
+	transition:
+		transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 0.22s ease,
+		filter 0.22s ease !important;
+	box-shadow:
+		0 4px 14px rgba(124, 58, 237, 0.35),
+		0 1px 0 rgba(255, 255, 255, 0.2) inset !important;
+}
+
+.guten-BHrBt .guten-button-link:hover,
+.guten-BHrBt .guten-button-link:focus-visible {
+	transform: translateY(-2px) scale(1.02);
+	filter: brightness(1.05);
+	box-shadow:
+		0 12px 28px rgba(124, 58, 237, 0.4),
+		0 0 0 1px rgba(255, 255, 255, 0.15) inset !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.lifeawesome-hero-blog::before,
+	.lifeawesome-hero-blog::after {
+		animation: none;
+	}
+
+	.lifeawesome-btn-alive .wp-block-button__link,
+	.lifeawesome-btn-alive-outline .wp-block-button__link,
+	.guten-BHrBt .guten-button-link {
+		transition: none;
+	}
+
+	.lifeawesome-btn-alive .wp-block-button__link:hover,
+	.lifeawesome-btn-alive-outline .wp-block-button__link:hover,
+	.guten-BHrBt .guten-button-link:hover {
+		transform: none;
+	}
+}

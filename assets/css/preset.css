@@ -1592,7 +1592,9 @@ body.admin-bar .lifeawesome-site-header {
 body:not(.editor-styles-wrapper) .wp-block-group.lifeawesome-home-hero-gradient,
 body:not(.editor-styles-wrapper)
 	.section-wrapper.lifeawesome-home-hero-gradient
-	> .wp-block-gutenverse-section {
+	> .wp-block-gutenverse-section,
+body:not(.editor-styles-wrapper)
+	.guten-element.guten-wrap-helper.lifeawesome-home-hero-gradient {
 	position: relative;
 	overflow: hidden;
 }
@@ -1600,7 +1602,9 @@ body:not(.editor-styles-wrapper)
 body:not(.editor-styles-wrapper) .wp-block-group.lifeawesome-home-hero-gradient::before,
 body:not(.editor-styles-wrapper)
 	.section-wrapper.lifeawesome-home-hero-gradient
-	> .wp-block-gutenverse-section::before {
+	> .wp-block-gutenverse-section::before,
+body:not(.editor-styles-wrapper)
+	.guten-element.guten-wrap-helper.lifeawesome-home-hero-gradient::before {
 	content: "";
 	position: absolute;
 	inset: 0;
@@ -1629,6 +1633,13 @@ body:not(.editor-styles-wrapper)
 body:not(.editor-styles-wrapper)
 	.section-wrapper.lifeawesome-home-hero-gradient
 	.guten-container {
+	position: relative;
+	z-index: 1;
+}
+
+body:not(.editor-styles-wrapper)
+	.guten-element.guten-wrap-helper.lifeawesome-home-hero-gradient
+	.guten-inner-wrap {
 	position: relative;
 	z-index: 1;
 }

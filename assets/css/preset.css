@@ -1645,7 +1645,7 @@ body:not(.editor-styles-wrapper)
 }
 
 /* -------------------------------------------------------------------------
-   Page template — full-width brand strip (core/cover, 20px, no image)
+   Page & single — full-width brand strip (core/cover, 20px, no image)
    ------------------------------------------------------------------------- */
 .lifeawesome-page-hero-cover-outer {
 	width: 100%;

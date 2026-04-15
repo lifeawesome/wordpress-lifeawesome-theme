@@ -5,16 +5,20 @@
 return array(
 	'title'      => __( 'LifeAwesome Single Core Content', 'lifeawesome' ),
 	'categories' => array( 'lifeawesome-core' ),
-	'content'    => '<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"48px","bottom":"80px","right":"20px","left":"20px"}}},"layout":{"type":"constrained","wideSize":"1140px","contentSize":"1140px"}} -->
+	'content'    => '<!-- wp:group {"align":"full","className":"lifeawesome-page-hero-cover-outer","layout":{"type":"default"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-group alignfull lifeawesome-page-hero-cover-outer" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"dimRatio":0,"isUserOverlayColor":false,"minHeight":20,"minHeightUnit":"px","align":"full","className":"lifeawesome-page-hero-cover","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}},"color":{"gradient":"linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"}}} -->
+<div class="wp-block-cover alignfull lifeawesome-page-hero-cover has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:20px;background:linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<p class="has-margin-top-0 has-margin-bottom-0"></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"48px","bottom":"80px","right":"20px","left":"20px"}}},"layout":{"type":"constrained","wideSize":"1140px","contentSize":"1140px"}} -->
 <main class="wp-block-group alignfull" style="padding-top:48px;padding-right:20px;padding-bottom:80px;padding-left:20px"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"60px","left":"60px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"760px","className":"lifeawesome-comment-column"} -->
 <div class="wp-block-column lifeawesome-comment-column" style="flex-basis:760px"><!-- wp:group {"className":"do-not-wrap","style":{"spacing":{"blockGap":"40px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group do-not-wrap"><!-- wp:group {"className":"do-not-wrap","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group do-not-wrap"><!-- wp:group {"className":"lifeawesome-home-hero-gradient","style":{"color":{"gradient":"linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"},"dimensions":{"minHeight":"380px"},"border":{"radius":"16px"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group lifeawesome-home-hero-gradient has-background" style="border-radius:16px;background:linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%);min-height:380px"><!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<div class="wp-block-group do-not-wrap"><!-- wp:post-featured-image {"align":"center","style":{"border":{"radius":"12px"},"spacing":{"margin":{"bottom":"32px"}}}} /-->
 
 <!-- wp:post-content /--></div>
 <!-- /wp:group -->

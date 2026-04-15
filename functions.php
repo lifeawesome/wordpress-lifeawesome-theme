@@ -13,9 +13,29 @@ if ( ! defined( 'ABSPATH' ) ) {
 function custom_seo_meta() {
     if (is_singular()) {
         global $post;
+        // 1. Meta Description (Manual Field or Excerpt fallback)
         $desc = get_post_meta($post->ID, 'meta_description', true);
+        if (!$desc) { $desc = get_the_excerpt(); }
         if ($desc) {
             echo '<meta name="description" content="' . esc_attr($desc) . '">' . "\n";
+        }
+
+        // 2. Robots Tag (Manual Field or 'index, follow' fallback)
+        $robots = get_post_meta($post->ID, 'meta_robots', true);
+        if (!$robots) { $robots = 'index, follow'; }
+        echo '<meta name="robots" content="' . esc_attr($robots) . '">' . "\n";
+
+        // 3. Canonical URL
+        $canonical = get_post_meta($post->ID, 'meta_canonical', true);
+        if (!$canonical) { $canonical = get_permalink(); }
+        echo '<link rel="canonical" href="' . esc_url($canonical) . '" />' . "\n";
+
+        // 4. Social Media (Open Graph for FB/Twitter)
+        echo '<meta property="og:title" content="' . esc_attr(get_the_title()) . '" />' . "\n";
+        echo '<meta property="og:url" content="' . esc_url(get_permalink()) . '" />' . "\n";
+        echo '<meta property="og:type" content="article" />' . "\n";
+        if (has_post_thumbnail()) {
+            echo '<meta property="og:image" content="' . esc_url(get_the_post_thumbnail_url($post->ID, 'large')) . '" />' . "\n";
         }
     }
 }

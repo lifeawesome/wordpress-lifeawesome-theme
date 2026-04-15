@@ -20,10 +20,12 @@ function custom_seo_meta() {
     }
 }
 add_action('wp_head', 'custom_seo_meta');
+add_theme_support('title-tag');
 
 
 defined( 'LIFEAWESOME_VERSION' ) || define( 'LIFEAWESOME_VERSION', '1.0.7' );
 defined( 'LIFEAWESOME_DIR' ) || define( 'LIFEAWESOME_DIR', trailingslashit( get_template_directory() ) );
+
 
 // defined( 'GUTENVERSE_COMPANION_REQUIRED_VERSION' ) || define( 'GUTENVERSE_COMPANION_REQUIRED_VERSION', '2.0.0' );
 

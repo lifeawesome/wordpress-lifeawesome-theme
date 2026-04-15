@@ -10,10 +10,12 @@ return array(
 <div class="wp-block-columns"><!-- wp:column {"width":"","className":"lifeawesome-comment-column"} -->
 <div class="wp-block-column lifeawesome-comment-column"><!-- wp:group {"style":{"spacing":{"blockGap":"40px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"lifeawesome-home-hero-gradient","style":{"color":{"gradient":"linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"},"dimensions":{"minHeight":"380px"},"border":{"radius":"16px"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group lifeawesome-home-hero-gradient has-background" style="border-radius:16px;background:linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%);min-height:380px"><!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph --></div>
+<div class="wp-block-group"><!-- wp:group {"className":"lifeawesome-page-hero-banner","style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group lifeawesome-page-hero-banner" style="margin-bottom:32px"><!-- wp:group {"className":"lifeawesome-home-hero-gradient lifeawesome-page-hero-banner__gradient","style":{"color":{"gradient":"linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"},"border":{"radius":"16px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group lifeawesome-home-hero-gradient lifeawesome-page-hero-banner__gradient has-background" style="border-radius:16px;background:linear-gradient(127deg,rgb(79,70,229) 0%,rgb(124,58,237) 24%,rgb(167,139,250) 48%,rgb(217,70,239) 74%,rgb(244,114,182) 100%)"></div>
+<!-- /wp:group -->
+
+<!-- wp:post-featured-image {"align":"center","className":"lifeawesome-page-hero-banner__image","style":{"border":{"radius":"12px"}}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:post-content /--></div>
